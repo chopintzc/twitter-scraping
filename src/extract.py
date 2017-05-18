@@ -17,7 +17,7 @@ def first_match(stext):
     for i in stext:
         if i in emoji:
             return i
-    return Null
+    return 
 
 def rev_find(text, start_idx):
     flag = False
